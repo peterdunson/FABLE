@@ -6,3 +6,8 @@ Provides posterior samples of the covariance matrix modeled using factor analysi
 All results in the paper can be replicated with scripts in `extras/replicationCodes` .
 
 Paper: https://arxiv.org/abs/2404.03805# .
+
+## Install 
+
+Please install the `devtools` package in `R`. 
+Use`install_github("shounakch/FABLE")` to install the package.
