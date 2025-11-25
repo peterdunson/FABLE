@@ -17,6 +17,11 @@ Use`devtools::install_github("shounakch/FABLE")` to install the package.
 
 ```
 set.seed(1)
+n = 500
+p = 1000
+lambdasd = 0.5
+pi0 = 0.5
+k = 10
   
 Lambda = matrix(rnorm(p*k, mean = 0, sd = lambdasd), nrow = p, ncol = k)
 BinMat = matrix(rbinom(p*k, 1, 1-pi0), nrow = p, ncol = k) 
