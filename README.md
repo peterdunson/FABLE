@@ -16,6 +16,7 @@ Use`devtools::install_github("shounakch/FABLE")` to install the package.
 ## Example Usage
 
 ```
+library(FABLE)
 set.seed(1)
 n = 500
 p = 1000
